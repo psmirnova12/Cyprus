@@ -1,0 +1,48 @@
+@import url();
+*{
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header{
+    background-image: url(../img/image.png);
+    height: 1107px;
+    position: relative;
+    background-size: cover;
+}
+
+
+header .foto .knop{
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+}
+
+header .foto .knop .k button{
+    width: 120%;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    height:40%;
+    color: #F87932;
+    font-size: 20px;
+}
+
+header .foto .knop .kn button{
+    width: 210%;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    height: 100%;
+    color: #F87932;
+}
+
