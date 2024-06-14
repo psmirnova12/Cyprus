@@ -1,4 +1,4 @@
-@import url();
+@import url(./font.css);
 *{
     margin: 0;
     bottom: 0;
@@ -7,7 +7,7 @@
     text-decoration: none;
 
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .container{
@@ -36,6 +36,7 @@ header .foto .knop .k button{
     height:40%;
     color: #F87932;
     font-size: 20px;
+    font-family: 'Lato';
 }
 
 header .foto .knop .kn button{
