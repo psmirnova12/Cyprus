@@ -12,3 +12,25 @@
     font-weight: 500;
     font-style: italic;
 }
+
+@font-face {
+    font-family: "Mer";
+    src: url(../fonts/Merriweather-Regular.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Merb";
+    src: url(../fonts/Merriweather-Bold.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Sed";
+    src: url(../fonts/SedgwickAve-Regular.ttf);
+    font-weight: 300;
+    font-style: normal;
+}

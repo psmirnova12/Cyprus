@@ -37,6 +37,12 @@ header .foto .knop .k button{
     color: #F87932;
     font-size: 20px;
     font-family: 'Lato';
+    transition: 0.5s;
+}
+
+header .foto .knop .k button:hover{
+    background-color: #F87932;
+    color: white;
 }
 
 header .foto .knop .kn button{
