@@ -22,6 +22,12 @@ header{
     background-size: cover;
 }
 
+header .foto2 img{
+    position: absolute;
+    top: 0;
+    width: 20%;
+}
+
 
 header .foto .knop{
     display: flex;
@@ -53,3 +59,70 @@ header .foto .knop .kn button{
     color: #F87932;
 }
 
+.osn .container{
+    display: flex;
+
+}
+
+.osn{
+    position: relative;
+}
+
+
+
+.osn .container .one{
+    position: relative;
+}
+
+.osn .container .one img{
+    position: absolute;
+}
+
+.osn .container .one .text{
+    position: absolute;
+    top: 120px;
+}
+
+.osn .container .one .text h2{
+    font-size: 80px;
+    color: #39BFA7;
+    font-family: 'Mer';
+}
+
+.osn .container .one .text h3{
+    font-size: 80px;
+    color: #F87932;
+    font-family: 'Mer';
+    margin-bottom: 10%;
+}
+
+.osn .container .one .knop button{
+    border: none;
+    background: #F87932;
+    width: 30%;
+    padding: 15px 0;
+    color: white;
+    font-family: 'Lato';
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.osn .container .one .knop button:hover{
+    background: white;
+    color: #F87932;
+}
+
+.osn .container .one, .two{
+    width: 50%;
+}
+
+.osn .container .two{
+    position: relative;
+}
+
+.osn .container .two img{
+    width: 100%;
+    right: 0;
+    position: absolute;
+    top: 50px;
+}
