@@ -22,12 +22,18 @@ header{
     background-size: cover;
 }
 
+
+
 header .foto2 img{
     position: absolute;
     top: 0;
     width: 20%;
 }
 
+
+header .foto{
+    width: 100%;
+}
 
 header .foto .knop{
     display: flex;
@@ -44,6 +50,7 @@ header .foto .knop .k button{
     font-size: 20px;
     font-family: 'Lato';
     transition: 0.5s;
+    opacity: 0.9;
 }
 
 header .foto .knop .k button:hover{
@@ -57,7 +64,13 @@ header .foto .knop .kn button{
     border: none;
     height: 100%;
     color: #F87932;
+    opacity: 0.9;
 }
+
+
+
+
+
 
 .osn .container{
     display: flex;
@@ -126,3 +139,226 @@ header .foto .knop .kn button{
     position: absolute;
     top: 50px;
 }
+
+
+
+
+.put .container{
+    display: flex;
+}
+
+.put .container .txt, .foto{
+    width: 50%;
+}
+
+.put .container{
+    margin-top: 2%;
+}
+
+.put .container .txt h3{
+    font-family: 'Latot';
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-bottom: 1%;
+    margin-top: 8%;
+    
+}
+
+.put .container .txt h2{
+    font-family: 'Merb';
+    font-size: 60px;
+    margin-bottom: 5%;
+    
+}
+
+.put .container .txt p{
+    font-family: 'Latot';
+    font-size: 20px;
+    color: #333333;
+    width: 85%;
+}
+
+.put .container .txt .knop button{
+    width: 30%;
+    padding: 15px 0;
+    background: none;
+    font-family: 'Lato';
+    font-size: 20px;
+    transition: 0.5s;
+    margin-top: 180px;
+}
+
+.put .container .txt .knop button:hover{
+    background-color: black;
+    color: white;
+}
+
+.put .container .txt .fot{
+    background-image: url(../img/put.png);
+    background-size: cover;
+    width: 720px;
+    height: 600px;
+    position: absolute;
+    left: -15%;
+    bottom: 90px;
+    
+}
+
+.put .container{
+    position: relative;
+}
+
+.put .container .foto img{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+.vid .fot{
+    background-image: url(../img/video.png);
+    background-size: cover;
+    height: 1049px;
+}
+
+.vid .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid .container .txt h2{
+    font-family: 'Merb';
+    font-size: 60px;
+    color: white;
+    padding-top: 40%;
+    text-align: center;
+}
+
+.vid .container .txt p{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.vid .container .txt .knop{
+    display: flex;
+    justify-content: center;
+}
+
+.vid .container .txt .knop{
+    background: none;
+    border: none;
+    margin-top: 15%;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.vid .container .txt .knop img{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+
+.vid .container .card .fig{
+    display: flex;
+
+}
+
+.vid .container .card .fig .romb:nth-child(2){
+    width: 180px;
+    height: 180px;
+    background: #39BFA7;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.vid .container .card .fig .romb:nth-child(3){
+    width: 180px;
+    height: 180px;
+    background: #39BFA7;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.vid .container .card .fig .romb:nth-child(4){
+    width: 180px;
+    height: 180px;
+    background: #39BFA7;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.vid .container .card .fig .romb{
+    width: 180px;
+    height: 180px;
+    background: #39BFA7;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    
+}
+
+.vid .container .card .fig .romb .romb1{
+    width: 165px;
+    height: 165px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.vid .container .card .fig .romb .romb2{
+    width: 50px;
+    height: 50px;
+    background: #a3653b;
+    border-radius: 4px;
+    padding-top: 2.6%;
+    padding-left: 2.6%;
+}
+
+.vid .container .card .fig .romb .romb1 p{
+    transform: rotate(-45deg);
+    font-family: 'Lato';
+    font-size: 32px;
+    text-align: center;
+}
+
+.vid .container .card .fig .romb .romb2 .romb3{
+    width: 40px;
+    height: 40px;
+    background: #39BFA7;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid .container .card .fig .romb .romb2 .romb3 p{
+    transform: rotate(-45deg);
+    font-family: 'Latob';
+    font-size: 20px;
+    color: white;
+}
+
+.vid .container .card{
+    margin-top: 30%;
+    display: flex;justify-content: center;
+}
+

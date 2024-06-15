@@ -34,3 +34,10 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Latot";
+    src: url(../fonts/Lato-Thin.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
