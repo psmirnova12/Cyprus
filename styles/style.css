@@ -362,3 +362,125 @@ header .foto .knop .kn button{
     display: flex;justify-content: center;
 }
 
+
+
+
+
+
+
+.be{
+    margin-top: 15%;
+}
+
+.be .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.be .container .text h2{
+    font-family: 'Montb';
+    font-size: 48px;
+}
+
+.be .container .text h3{
+    font-family: 'Mont';
+    font-size: 32px;
+    margin-top: 1%;
+}
+
+.be .container .text p{
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.be .container .text img{
+    width: 20%;
+    margin-top: 2%;
+}
+
+.be .container .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(2, 282px);
+    gap: 20px;
+    padding: 50px 0;
+}
+.be .container .grid .image:nth-child(1){
+    background-image: url(../img/облака.jpg);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 1;
+}
+
+.be .container .grid .image:nth-child(2){
+    background-image: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+.be .container .grid .image:nth-child(3){
+    background-image: url(../img/22.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 1;
+    grid-column-end: 5;
+}
+
+.be .container .grid .image:nth-child(4){
+    background-image: url(../img/3.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+
+.be .container .grid .image:nth-child(5){
+    background-image: url(../img/4.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+}
+
+.be .container .grid .image:nth-child(6){
+    background-image: url(../img/5.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+.be .container .knop button{
+    width: 13%;
+    padding: 15px 0;
+    background: none;
+    font-family: 'Latob';
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.be .container .knop{
+    display: flex;
+    justify-content: center;
+}
+
+.be .container .knop button:hover{
+    background-color: black;
+    color: white;
+}

@@ -41,3 +41,18 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Mont";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Montb";
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
