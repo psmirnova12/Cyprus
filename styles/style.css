@@ -822,8 +822,11 @@ header .foto .knop .kn button{
         width: 100%;
     }
 
-    .osn .container .two{
-        width: 0%;
+    .osn .container .two img{
+        width: 100%;
+        margin-top: 140px;
+        margin-right: -90px;
+        
     }
 
     .osn .container .one .knop button{
@@ -937,6 +940,7 @@ header .foto .knop .kn button{
 
     .tur .container .nuj{
         flex-direction: column;
+
     }
 
     .tur .container .nuj .spis{
@@ -998,13 +1002,216 @@ header .foto .knop .kn button{
         flex-wrap: wrap;
     }
 
+    .obr .container .vvod .nuj input{
+        width: 90px;
+    }
+
+    .obr .container .vvod .nuj1 input{
+        width: 90px;
+    }
+
+    .footer .container .b1 .nuj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
     .footer .container .b1 .nuj .c{
-        width: 70%;
+        width: 160px;
+    }
+
+    .footer .container .b1 .logo img{
+        width: 100%;
+        margin-left: 60%;
+    }
+
+    .footer .container .b1 .c h2{
+        font-size: 12.8px;
+    }
+
+    .footer .container .b1 .c p{
+        font-size: 10.24px;
+        margin-bottom: 10px;
+    }
+
+    .footer .container .b2 h2{
+        font-size: 9.6px;
+    }
+
+    .footer .container .b2 p{
+        font-size: 9.6px;
+    }
+
+    .footer .container .b2 .ik img{
+        width: 15%;
+        margin-left: 10%;
+    }
+
+    .footer .container .b2 .ik {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .foto2 img{
+        width: 0;
+    }
+
+    header .foto .knop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .foto .knop .k button{
+        width: 130%;
+        padding: 10% 0;
+        font-size: 15px;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 5%;
+        }
+    
+
+    header .foto .knop .kn button{
+        width: 110%;
+        height: 20%;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 5%;
+    }
+
+    header .foto .knop .kn img{
+        width: 50%;
+    }
+
+    header{
+        height: 700px;
+    }
+
+    .osn .container{
         display: flex;
         flex-direction: column;
     }
 
-    .footer .container .b1 .logo{
-        width: 30%;
+    .vid .container .card .fig .romb{
+        width: 100px;
+        height: 100px;
+    }
+
+    .vid .container .card .fig .romb .romb1{
+        width: 90px;
+        height: 90px;
+    }
+
+    .vid .container .card .fig .romb .romb1 .romb2{
+        width: 40px;
+        height: 40px;
+    }
+
+    .vid .container .card .fig .romb .romb1 .romb2 .romb3{
+        width: 35px;
+        height: 35px;
+    }
+
+    .vid .container .card .fig .romb .romb1 p{
+        font-size: 14px;
+    }
+
+    .vid .container .card .fig{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vid .container .card .fig .romb:nth-child(2){
+        width: 100px;
+        height: 100px;
+        margin-right: 99px;
+    }
+    
+    .vid .container .card .fig .romb:nth-child(3){
+        width: 100px;
+        height: 100px;
+        margin-right: 99px;
+    }
+    
+    .vid .container .card .fig .romb:nth-child(4){
+        width: 100px;
+        height: 100px;
+        margin-right: 99px;
+    }
+
+    .vid .container .card .fig .romb .romb2 .romb3 p{
+        font-size: 12px;
+    }
+
+    .vid .fot{
+        height: 750px;
+    }
+
+    .be .container .grid{
+        grid-template-columns: repeat(2, 132px);
+        grid-template-rows: repeat(4, 132px);
+        gap: 10px;
+        margin-left: 7%;
+    }
+
+    .be .container .grid .image:nth-child(1){
+        background-image: url(../img/облака.jpg);
+        background-size: cover;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+    
+    .be .container .grid .image:nth-child(2){
+        background-image: url(../img/1.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 2;
+        grid-column-end: 1;
+    }
+    .be .container .grid .image:nth-child(3){
+        background-image: url(../img/22.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-end: 5;
+        grid-column-end: 3;
+    }
+    
+    .be .container .grid .image:nth-child(4){
+        background-image: url(../img/3.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 3;
+        grid-column-end: 1;
+    }
+    
+    .be .container .grid .image:nth-child(5){
+        background-image: url(../img/4.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 2;
+    }
+    
+    .be .container .grid .image:nth-child(6){
+        background-image: url(../img/5.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 4;
+        grid-column-end: 3;
     }
 }
