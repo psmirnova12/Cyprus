@@ -22,17 +22,19 @@ header{
     background-size: cover;
 }
 
+header .foto{
+    width: 100%;
+}
 
+header{
+    position: relative;
+}
 
 header .foto2 img{
     position: absolute;
     top: 0;
     width: 20%;
-}
-
-
-header .foto{
-    width: 100%;
+    left: 0;
 }
 
 header .foto .knop{
@@ -42,14 +44,14 @@ header .foto .knop{
 }
 
 header .foto .knop .k button{
-    width: 120%;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 15px 15px;
     border: none;
-    height:40%;
+    padding: 20px 30px;
     color: #F87932;
     font-size: 20px;
-    font-family: 'Lato';
+    font-family: 'Latob';
     transition: 0.5s;
+    letter-spacing: 3px;
 }
 
 header .foto .knop .k button:hover{
@@ -57,9 +59,13 @@ header .foto .knop .k button:hover{
     color: white;
 }
 
+header .foto .knop .kn img{
+    width: 50%;
+}
+
 header .foto .knop .kn button{
-    width: 210%;
-    border-radius: 0 0 10px 10px;
+    padding: 20px 30px;
+    border-radius: 0 0 15px 15px;
     border: none;
     height: 100%;
     color: #F87932;
@@ -91,31 +97,36 @@ header .foto .knop .kn button{
 
 .osn .container .one .text{
     position: absolute;
-    top: 120px;
+    top: 160px;
+    left: 70px;
 }
 
 .osn .container .one .text h2{
     font-size: 80px;
     color: #39BFA7;
     font-family: 'Mer';
+    text-shadow: #303030 1px 0 10px;
+    margin-bottom: -5%;
 }
 
 .osn .container .one .text h3{
     font-size: 80px;
     color: #F87932;
     font-family: 'Mer';
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    text-shadow: #303030 1px 0 10px;
 }
 
 .osn .container .one .knop button{
     border: none;
     background: #F87932;
-    width: 30%;
-    padding: 15px 0;
+    width: 45%;
+    padding: 20px 0;
     color: white;
-    font-family: 'Lato';
+    font-family: 'Latob';
     transition: 0.5s;
     font-size: 20px;
+    letter-spacing: 4px;
 }
 
 .osn .container .one .knop button:hover{
@@ -133,9 +144,9 @@ header .foto .knop .kn button{
 
 .osn .container .two img{
     width: 100%;
-    right: 0;
+    right: 10px;
     position: absolute;
-    top: 50px;
+    top: 60px;
 }
 
 
@@ -154,7 +165,7 @@ header .foto .knop .kn button{
 }
 
 .put .container .txt h3{
-    font-family: 'Latot';
+    font-family: 'Lato';
     font-size: 24px;
     text-transform: uppercase;
     color: #666666;
