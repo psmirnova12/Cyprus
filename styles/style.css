@@ -543,7 +543,7 @@ header .foto .knop .kn button{
 
 .tur .container .up h2{
     font-family: 'Sed';
-    font-style: 60px;
+    font-size: 60px;
     color: #39BFA7;
     display: flex;
     justify-content: end;
@@ -554,7 +554,7 @@ header .foto .knop .kn button{
 .tur .container .spis .t1 h2{
     color: white;
     font-family: 'Sed';
-    font-size: 44px;
+    font-size: 80px;
     font-weight: 100;
     margin-right: 5%;
 }
@@ -567,13 +567,13 @@ header .foto .knop .kn button{
 .tur .container .spis .t1 .t2 p{
     font-family: 'Sed';
     font-weight: 100;
-    font-size: 14px;
+    font-size: 28px;
     color: white;
 }
 
 .tur .container .spis .t1 .t2 h3{
     font-family: 'Mer';
-    font-size: 23px;
+    font-size: 40px;
     color: white;
     font-weight: 100;
 }
@@ -758,7 +758,12 @@ header .foto .knop .kn button{
     color: white;
 }
 
-.footer .container .b1 .c{
+.footer .container .b1 .nuj{
+    display: flex;
+    width: 75%;
+}
+
+.footer .container .b1 .nuj .c{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -793,4 +798,213 @@ header .foto .knop .kn button{
 .footer .container .b2 .ik img{
     width: 25%;
     margin-left: 6%;
+}
+
+
+
+
+
+
+@media(max-width: 420px){
+    .container{
+        width: 320px;
+    }
+
+    .osn .container .one .text h2{
+        font-size: 25px;
+    }
+
+    .osn .container .one .text h3{
+        font-size: 25px;
+    }
+
+    .osn .container .one .text{
+        width: 100%;
+    }
+
+    .osn .container .two{
+        width: 0%;
+    }
+
+    .osn .container .one .knop button{
+        font-size: 8px;
+        width: 35%;
+        padding: 5px 0;
+    }
+
+    .osn .container{
+        margin-left: 5%;
+    }
+
+    .put .container .txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .put .container .txt h3{
+        font-size: 12px;
+    }
+
+    .put .container .txt h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .put .container .foto{
+        width: 0;
+    }
+
+    .put .container .txt p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .put .container .txt .fot{
+        width: 300px;
+        height: 300px;
+        left: -10%;
+        bottom: 30px;
+        
+    }
+
+    .put .container .txt .knop button{
+        width: 100%;
+        font-size: 10px;
+        padding: 5px 5px;
+        margin-top: 90px;
+    }
+
+    .vid .container .txt h2{
+        font-size: 15px;
+        margin-top: 25%;
+    }
+
+    .vid .container .txt p{
+        font-size: 7px;
+    }
+
+    .be .container .text h2{
+        font-size: 24px;
+    }
+
+    .be .container .text h3{
+        font-size: 16px;
+    }
+
+    .be .container .text p{
+        font-size: 8px;
+    }
+
+    .be .container .knop button{
+        width: 25%;
+        font-size: 10px;
+        padding: 5px 0;
+        margin-top: 90px;
+    }
+
+    .tur .container .text h2{
+        font-size: 30px;
+    }
+
+    .tur .container .text p{
+        font-size: 5.76px;
+    }
+
+    .tur .container .up, .text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tur .container .up h2{
+        font-size: 30px;
+    }
+
+    .tur .container .spis .t1 h2{
+        font-size: 32px;
+    }
+
+    .tur .container .spis .t1 .t2 p{
+        font-size: 11.2px;
+    }
+
+    .tur .container .spis .t1 .t2 h3{
+        font-size: 16px;
+    }
+
+    .tur .container .nuj{
+        flex-direction: column;
+    }
+
+    .tur .container .nuj .spis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tur .container .nuj .up{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .tur .container .knop button{
+        width: 25%;
+        font-size: 10px;
+        padding: 5px 0;
+        margin-top: 90px;
+    }
+
+    .obr .container .text h2{
+        font-size: 30px;
+    }
+
+    .obr .container .vvod .nuj .naz p{
+        font-size: 13px;
+    }
+
+    .obr .container .text p{
+        font-size: 15px;
+    }
+
+    .obr .container .text p{
+        font-size: 13px;
+    }
+
+    .obr .container .vvod{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .obr .container .vvod .nuj1 .naz p{
+        font-size: 13px;
+    }
+
+    .obr .container .knop button{
+        width: 25%;
+        font-size: 10px;
+        padding: 5px 0;
+        margin-top: 20px;
+    }
+
+    .footer .container .b1{
+        flex-wrap: wrap;
+    }
+
+    .footer .container .b1 .nuj .c{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .container .b1 .logo{
+        width: 30%;
+    }
 }
