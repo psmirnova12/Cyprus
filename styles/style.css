@@ -595,7 +595,7 @@ header .foto .knop .kn button{
     font-size: 20px;
     font-family: 'Lato';
     padding: 1% 0;
-    transform: 0.5s;
+    transition: 0.5s;
     margin-bottom: 5%;
     margin-top: 3%;
 }
@@ -609,4 +609,95 @@ header .foto .knop .kn button{
 .tur .container .nuj{
     display: flex;
     
+}
+
+
+
+
+
+
+
+
+
+.obr .container .text h2{
+    color: black;
+    font-family: 'Merb';
+    font-size: 60px;
+    margin-top: 4%;
+}
+
+.obr .container .text img{
+    width: 20%;
+    margin-top: 1%;
+}
+
+.obr .container .text p{
+    color: black;
+    font-family: 'Latot';
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.obr .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obr .container .vvod{
+    display: flex;
+    margin-top: 4%;
+}
+
+.obr .container .vvod .nuj, .nuj1{
+    width: 50%;
+
+}
+
+.obr .container .vvod .nuj .naz p{
+    font-family: 'Lato';
+    font-style: 20px;
+    margin-bottom: 3%;
+}
+
+.obr .container .vvod .nuj1 .naz p{
+    font-family: 'Lato';
+    font-style: 20px;
+    margin-bottom: 3%;
+}
+
+.obr .container .vvod .nuj input{
+    border: 1px solid #39BFA7;
+    margin-bottom: 5%;
+    width: 50%;
+    padding: 2% 0;
+}
+
+.obr .container .vvod .nuj1 input{
+    border: 1px solid #39BFA7;
+    margin-bottom: 5%;
+    width: 50%;
+    padding: 2% 0;
+}
+
+.obr .container .knop{
+    display: flex;
+    justify-content: center;
+}
+
+.obr .container .knop button{
+    width: 13%;
+    padding: 15px 0;
+    background: none;
+    font-family: 'Latob';
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.obr .container .knop button:hover{
+    background: #000;
+    color: white;
 }
