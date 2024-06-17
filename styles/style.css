@@ -1219,4 +1219,8 @@ header .foto .knop .kn button{
     .put .container .txt .knop button{
         margin-bottom: 30%;
     }
+
+    header{
+        overflow-x: hidden;
+    }
 }
