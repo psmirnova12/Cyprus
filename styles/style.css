@@ -869,7 +869,7 @@ header .foto .knop .kn button{
         width: 300px;
         height: 300px;
         left: -10%;
-        bottom: 30px;
+        bottom: 60px;
         
     }
 
@@ -1155,6 +1155,7 @@ header .foto .knop .kn button{
         grid-template-rows: repeat(4, 132px);
         gap: 10px;
         margin-left: 7%;
+        margin-bottom: -30%;
     }
 
     .be .container .grid .image:nth-child(1){
@@ -1213,5 +1214,9 @@ header .foto .knop .kn button{
         grid-column-start: 2;
         grid-row-end: 4;
         grid-column-end: 3;
+    }
+
+    .put .container .txt .knop button{
+        margin-bottom: 30%;
     }
 }
