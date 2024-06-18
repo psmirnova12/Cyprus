@@ -56,3 +56,10 @@
     font-weight: 500;
     font-style: italic;
 }
+
+@font-face {
+    font-family: "Latos";
+    src: url(../fonts/Lato-Semibold.ttf);
+    font-weight: 400;
+    font-style: italic;
+}

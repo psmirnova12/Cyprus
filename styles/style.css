@@ -18,8 +18,11 @@
 header{
     background-image: url(../img/image.png);
     height: 1107px;
-    position: relative;
     background-size: cover;
+}
+
+header .bg{
+    position: relative;
 }
 
 header .foto{
@@ -30,11 +33,14 @@ header{
     position: relative;
 }
 
-header .foto2 img{
+header .foto2{
     position: absolute;
     top: 0;
-    width: 20%;
     left: 0;
+}
+
+header .foto2 img{
+    width: 51%;
 }
 
 header .foto .knop{
@@ -45,18 +51,20 @@ header .foto .knop{
 
 header .foto .knop .k button{
     border-radius: 0 0 15px 15px;
+    height: 62px;
     border: none;
     padding: 20px 30px;
     color: #F87932;
     font-size: 20px;
     font-family: 'Latob';
-    transition: 0.5s;
+    transition: 0.8s;
     letter-spacing: 3px;
 }
 
 header .foto .knop .k button:hover{
-    background-color: #F87932;
-    color: white;
+    height: 100px;
+    box-shadow: 0 5px 10px 0px rgba(255, 255, 255);
+    transition: 0.8s;
 }
 
 header .foto .knop .kn img{
@@ -177,25 +185,28 @@ header .foto .knop .kn button{
 .put .container .txt h2{
     font-family: 'Merb';
     font-size: 60px;
-    margin-bottom: 5%;
-    
+    margin-bottom: 6%;
+    line-height: 100%;
 }
 
 .put .container .txt p{
-    font-family: 'Latot';
+    font-family: 'Lato';
     font-size: 20px;
     color: #333333;
     width: 85%;
+    letter-spacing: 4px;
+    line-height: 140%;
 }
 
 .put .container .txt .knop button{
-    width: 30%;
-    padding: 15px 0;
+    width: 37%;
+    padding: 20px 0;
     background: none;
-    font-family: 'Lato';
+    font-family: 'Latob';
     font-size: 20px;
     transition: 0.5s;
-    margin-top: 180px;
+    margin-top: 160px;
+    letter-spacing: 5px;
 }
 
 .put .container .txt .knop button:hover{
@@ -210,7 +221,7 @@ header .foto .knop .kn button{
     height: 600px;
     position: absolute;
     left: -15%;
-    bottom: 90px;
+    bottom: 140px;
     
 }
 
@@ -228,12 +239,14 @@ header .foto .knop .kn button{
 
 
 
-
+.vid{
+    margin-top: 3%;
+}
 
 .vid .fot{
     background-image: url(../img/video.png);
     background-size: cover;
-    height: 1049px;
+    height: 1100px;
 }
 
 .vid .container{
@@ -247,16 +260,18 @@ header .foto .knop .kn button{
     font-family: 'Merb';
     font-size: 60px;
     color: white;
-    padding-top: 40%;
+    padding-top: 43%;
     text-align: center;
+    line-height: 115%;
 }
 
 .vid .container .txt p{
-    font-family: 'Lato';
+    font-family: 'Latos';
     font-size: 20px;
     color: white;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
+    letter-spacing: 4px;
 }
 
 .vid .container .txt .knop{
@@ -275,10 +290,10 @@ header .foto .knop .kn button{
 }
 
 .vid .container .txt .knop img{
-    width: 20%;
+    width: 22%;
     position: absolute;
     left: 40%;
-    top: 100%;
+    top: 90%;
 }
 
 .vid .container .card .fig{
@@ -287,73 +302,76 @@ header .foto .knop .kn button{
 }
 
 .vid .container .card .fig .romb:nth-child(2){
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background: #39BFA7;
     transform: rotate(45deg);
-    border-radius: 5px;
-    margin-left: 90px;
+    border-radius: 10px;
+    margin-left: 100px;
 }
 
 .vid .container .card .fig .romb:nth-child(3){
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background: #39BFA7;
     transform: rotate(45deg);
-    border-radius: 5px;
-    margin-left: 90px;
+    border-radius: 10px;
+    margin-left: 100px;
 }
 
 .vid .container .card .fig .romb:nth-child(4){
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background: #39BFA7;
     transform: rotate(45deg);
-    border-radius: 5px;
-    margin-left: 90px;
+    border-radius: 10px;
+    margin-left: 100px;
 }
 
 .vid .container .card .fig .romb{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background: #39BFA7;
     transform: rotate(45deg);
-    border-radius: 5px;
-    
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2)
 }
 
 .vid .container .card .fig .romb .romb1{
-    width: 165px;
-    height: 165px;
+    width: 180px;
+    height: 180px;
     background: white;
-    border-radius: 5px;
-    margin-top: 4%;
-    margin-left: 4%;
-    padding-top: 3%;
-    padding-left: 3%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2)
 }
 
 .vid .container .card .fig .romb .romb2{
-    width: 50px;
-    height: 50px;
-    background: #a3653b;
-    border-radius: 4px;
-    padding-top: 2.6%;
-    padding-left: 2.6%;
+    width: 60px;
+    height: 60px;
+    background: #692e00;
+    border-radius: 8px;
+    padding-top: 1.9%;
+    padding-left: 1.9%;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1)
 }
 
 .vid .container .card .fig .romb .romb1 p{
     transform: rotate(-45deg);
-    font-family: 'Lato';
+    font-family: 'Latos';
     font-size: 32px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .vid .container .card .fig .romb .romb2 .romb3{
-    width: 40px;
-    height: 40px;
+    width: 53px;
+    height: 53px;
     background: #39BFA7;
-    border-radius: 3px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,14 +379,16 @@ header .foto .knop .kn button{
 
 .vid .container .card .fig .romb .romb2 .romb3 p{
     transform: rotate(-45deg);
-    font-family: 'Latob';
+    font-family: 'Latos';
     font-size: 20px;
     color: white;
+    letter-spacing: 2px;
 }
 
 .vid .container .card{
-    margin-top: 30%;
-    display: flex;justify-content: center;
+    margin-top: 31.9%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -378,7 +398,7 @@ header .foto .knop .kn button{
 
 
 .be{
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 .be .container .text{
@@ -395,26 +415,30 @@ header .foto .knop .kn button{
 .be .container .text h3{
     font-family: 'Mont';
     font-size: 32px;
-    margin-top: 1%;
+    margin-top: 1.5%;
+    color: #444444;
+    font-weight: 900;
 }
 
 .be .container .text p{
     font-family: 'Lato';
     font-size: 16px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    color: #666666;
+    letter-spacing: 4px;
 }
 
 .be .container .text img{
-    width: 20%;
-    margin-top: 2%;
+    width: 14%;
+    margin-top: 2.5%;
 }
 
 .be .container .grid{
     display: grid;
     grid-template-columns: repeat(4, 282px);
     grid-template-rows: repeat(2, 282px);
-    gap: 20px;
+    gap: 25px;
     padding: 50px 0;
 }
 .be .container .grid .image:nth-child(1){
@@ -476,12 +500,14 @@ header .foto .knop .kn button{
 }
 
 .be .container .knop button{
-    width: 13%;
+    width: 17%;
     padding: 15px 0;
     background: none;
     font-family: 'Latob';
     font-size: 20px;
     transition: 0.5s;
+    margin-top: 1%;
+    letter-spacing: 4px;
 }
 
 .be .container .knop{
@@ -505,13 +531,15 @@ header .foto .knop .kn button{
 .tur{
     background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url(../img/fon2.jfif);
     background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-top: 7%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    margin-top: 4%;
+    background-position: 0 -550px;
     
 }
 
 .tur .container{
+    width: 1400px;
     border: 4px solid white;
     
 }
@@ -521,20 +549,24 @@ header .foto .knop .kn button{
     font-family: 'Merb';
     font-size: 60px;
     margin-top: 4%;
+    font-weight: 900;
 }
 
 .tur .container .text img{
-    width: 20%;
-    margin-top: 1%;
+    width: 14%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
 }
 
 .tur .container .text p{
     color: white;
     font-family: 'Latot';
     font-size: 16px;
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin-bottom: 1%;
+    letter-spacing: 4px;
+    line-height: 150%;
 }
 
 .tur .container .text{
@@ -558,8 +590,9 @@ header .foto .knop .kn button{
     color: #39BFA7;
     display: flex;
     justify-content: end;
-    margin-right: 10%;
+    margin-right: 20%;
     font-weight: 100;
+    text-align: end;
 }
 
 .tur .container .spis .t1 h2{
@@ -572,20 +605,20 @@ header .foto .knop .kn button{
 
 .tur .container .spis .t1{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .tur .container .spis .t1 .t2 p{
     font-family: 'Sed';
     font-weight: 100;
     font-size: 28px;
-    color: white;
+    color: #969696;
 }
 
 .tur .container .spis .t1 .t2 h3{
     font-family: 'Mer';
     font-size: 40px;
-    color: white;
+    color: #DDDDDD;
     font-weight: 100;
 }
 
@@ -599,14 +632,16 @@ header .foto .knop .kn button{
     background-color: #F87932;
     border: none;
     color: white;
-    width: 12%;
+    width: 15%;
     border: none;
     font-size: 20px;
-    font-family: 'Lato';
-    padding: 1% 0;
+    font-family: 'Latob';
+    padding: 1.3% 0;
     transition: 0.5s;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     margin-top: 3%;
+    letter-spacing: 4px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2)
 }
 
 
@@ -632,12 +667,12 @@ header .foto .knop .kn button{
     color: black;
     font-family: 'Merb';
     font-size: 60px;
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .obr .container .text img{
-    width: 20%;
-    margin-top: 1%;
+    width: 15%;
+    margin-top: 2%;
 }
 
 .obr .container .text p{
@@ -647,7 +682,8 @@ header .foto .knop .kn button{
     width: 40%;
     text-align: center;
     margin-bottom: 1%;
-    margin-top: 2%;
+    margin-top: 3%;
+    letter-spacing: 4px;
 }
 
 .obr .container .text{
@@ -712,12 +748,13 @@ header .foto .knop .kn button{
 }
 
 .obr .container .knop button{
-    width: 13%;
+    width: 15%;
     padding: 15px 0;
     background: none;
     font-family: 'Latob';
     font-size: 20px;
     transition: 0.5s;
+    letter-spacing: 4px;
 }
 
 .obr .container .knop button:hover{
@@ -734,7 +771,6 @@ header .foto .knop .kn button{
 .footer{
     background: #151C21;
     padding-top: 5%;
-
     margin-top: 5%;
 }
 
@@ -754,31 +790,44 @@ header .foto .knop .kn button{
 }
 
 .footer .container .b1 .logo img{
-    width: 40%;
+    width: 25%;
 }
 
 .footer .container .b1 .c h2{
     font-family: 'Lato';
     font-size: 20px;
     color: white;
+    display: flex;
+    align-items: baseline;
+    text-align: start;
 }
 
 .footer .container .b1 .c p{
-    font-family: 'Latot';
+    font-family: 'Lato';
     font-size: 16px;
     color: white;
+    display: flex;
+    align-items: baseline;
+    margin-top: 5%;
 }
 
 .footer .container .b1 .nuj{
     display: flex;
     width: 75%;
+    margin-top: 3%;
 }
 
 .footer .container .b1 .nuj .c{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+    margin-right: 10%;
+    align-items: baseline;
+}
+
+.footer .container .b1 .nuj .c .zag h2{
+    display: flex;
+    align-items: baseline;
 }
 
 .footer .container hr{
@@ -794,21 +843,22 @@ header .foto .knop .kn button{
 }
 
 .footer .container .b2 h2{
-    font-family: 'Lato';
+    font-family: 'Latos';
     font-size: 16px;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .footer .container .b2 p{
     font-family: 'Latot';
     font-size: 16px;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
 .footer .container .b2 .ik img{
-    width: 25%;
-    margin-left: 6%;
+    width: 15%;
+    margin: 6% 6%;
+    margin-bottom: 70%;
 }
 
 
