@@ -913,12 +913,25 @@ header .foto .knop .kn button{
         width: 320px;
     }
 
+    header .foto .knop .k button{
+        height: 35px;
+    }
+
+    header .foto .knop .k button:hover{
+        height: 50px;
+    }
+
+
+
     .osn .container .one .text h2{
         font-size: 25px;
+        margin-left: -45%;
+        margin-top: -75%;
     }
 
     .osn .container .one .text h3{
         font-size: 25px;
+        margin-left: -45%;
     }
 
     .osn .container .one .text{
@@ -927,15 +940,16 @@ header .foto .knop .kn button{
 
     .osn .container .two img{
         width: 100%;
-        margin-top: 140px;
-        margin-right: -90px;
+        margin-top: 90px;
+        margin-right: -80px;
         
     }
 
     .osn .container .one .knop button{
         font-size: 8px;
-        width: 35%;
+        width: 75%;
         padding: 5px 0;
+        margin-left: -45%;
     }
 
     .osn .container{
@@ -966,13 +980,14 @@ header .foto .knop .kn button{
     .put .container .txt p{
         font-size: 10px;
         text-align: center;
+        margin-top: 7%;
     }
 
     .put .container .txt .fot{
-        width: 300px;
-        height: 300px;
+        width: 320px;
+        height: 320px;
         left: -10%;
-        bottom: 60px;
+        bottom: 130px;
         
     }
 
@@ -985,11 +1000,18 @@ header .foto .knop .kn button{
 
     .vid .container .txt h2{
         font-size: 15px;
-        margin-top: 25%;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        letter-spacing: 1px;
+    }
+
+    .vid .container .txt .knop img{
+        width: 0;
     }
 
     .vid .container .txt p{
         font-size: 7px;
+        width: 80%;
     }
 
     .be .container .text h2{
@@ -1002,13 +1024,34 @@ header .foto .knop .kn button{
 
     .be .container .text p{
         font-size: 8px;
+        width: 80%;
+        text-align: center;
     }
 
     .be .container .knop button{
-        width: 25%;
+        width: 40%;
         font-size: 10px;
-        padding: 5px 0;
-        margin-top: 90px;
+        padding: 10px 0;
+        margin-top: 25%;
+        margin-bottom: 8%;
+    }
+
+    .vid .container .card .fig{
+        margin-top: -32%;
+    }
+
+    .be .container .text img{
+        width: 25%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
+    .tur{
+        background-position: -190px 0px;
+    }
+
+    .tur .container{
+        width: 90%;
     }
 
     .tur .container .text h2{
