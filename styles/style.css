@@ -40,7 +40,7 @@ header .foto2{
 }
 
 header .foto2 img{
-    width: 51%;
+    width: 360px;
 }
 
 header .foto .knop{
@@ -137,10 +137,18 @@ header .foto .knop .kn button{
     letter-spacing: 4px;
 }
 
-.osn .container .one .knop button:hover{
-    background: white;
-    color: #F87932;
-}
+.osn .container .one .knop button {
+    border: 2px solid #F87932;
+    background: linear-gradient(to left, #39BFA7 50%, #F87932 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition:.3s ease-out;
+  }
+  
+.osn .container .one .knop button:hover {
+    background-position: bottom right;
+    color: #fff;
+  }
 
 .osn .container .one, .two{
     width: 50%;
@@ -209,10 +217,19 @@ header .foto .knop .kn button{
     letter-spacing: 5px;
 }
 
-.put .container .txt .knop button:hover{
-    background-color: black;
-    color: white;
-}
+.put .container .txt .knop button {
+    border: 2px solid black;
+    background: linear-gradient(to left, #F87932 50%, White 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: .3s ease-out;
+  }
+  
+  .put .container .txt .knop button:hover {
+    background-position: bottom right;
+    color: #fff;
+  }
+
 
 .put .container .txt .fot{
     background-image: url(../img/put.png);
@@ -510,15 +527,24 @@ header .foto .knop .kn button{
     letter-spacing: 4px;
 }
 
+.be .container .knop button {
+    border: 2px solid black;
+    background: linear-gradient(to left, #F87932 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: .3s ease-out;
+  }
+  
+  .be .container .knop button:hover {
+    background-position: bottom right;
+    color: #fff;
+  }
+
 .be .container .knop{
     display: flex;
     justify-content: center;
 }
 
-.be .container .knop button:hover{
-    background-color: black;
-    color: white;
-}
 
 
 
@@ -645,10 +671,18 @@ header .foto .knop .kn button{
 }
 
 
-.tur .container .knop button:hover{
-    background-color: white;
-    color: #F87932;
-}
+.tur .container .knop button {
+    border: 2px solid #F87932;
+    background: linear-gradient(to left, #39BFA7 50%, #F87932 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: .3s ease-out;
+  }
+  
+  .tur .container .knop button:hover {
+    background-position: bottom right;
+    color: #fff;
+  }
 
 .tur .container .nuj{
     display: flex;
@@ -757,10 +791,18 @@ header .foto .knop .kn button{
     letter-spacing: 4px;
 }
 
-.obr .container .knop button:hover{
-    background: #000;
-    color: white;
-}
+.obr .container .knop button {
+    border: 2px solid black;
+    background: linear-gradient(to left, #F87932 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: .3s ease-out;
+  }
+  
+  .obr .container .knop button:hover {
+    background-position: bottom right;
+    color: #fff;
+  }
 
 
 
